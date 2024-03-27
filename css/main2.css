@@ -222,11 +222,14 @@ a{
 
 /* navbar part */
 .navbar{
-    height: 80px;
+    height: 60px;
     display: flex;
     align-items: center;
     box-shadow: rgba(240, 3, 3, 0.08) 0px 3px 8px;
     background: #434343;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .navbar .container{
